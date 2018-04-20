@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.table {
+    font-family: 'Open Sans', 'Arial', 'sans serif';
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+    cursor: pointer;
+}
+
+.table td, .table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.table tr:hover {
+    background-color: #ddd;
+
+}
+
+.highlighted {
+    color: #261F1D;
+    background-color: #E5C37E;
+}
+
+tr {
+    background: #fff;
+    color: #261F1D;
+}
+
+.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #B8B8B8;
+    color: white;
+}
+</style>
+</head>

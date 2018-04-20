@@ -1,0 +1,138 @@
+@import "compass/css3";
+
+$white : rgba(255,255,255,0.6);
+$grey: #545454;
+$lightgrey : #cde4fa;
+
+html { width: 100%; height: 100%; overflow:hidden; }
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', 'Arial', 'sans serif';
+  font-size: 12px;
+  background-color: #fff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.form-container {
+    max-width: 420px;
+    height: 400px;
+    margin: 20px auto;
+    margin-top: 80px;
+    padding: 20px;
+    border: 1px dot #000;
+}
+
+.add-container {
+    max-width: 420px;
+    height: 400px;
+    margin: 20px auto;
+    margin-top: 10px;
+    padding: 20px;
+    border: 1px dot #000;
+}
+input[type=text], input[type=password]{
+    width: 100%;
+    height: 47px;
+    padding: 12px 10px;
+    margin: 8px 0 !important;
+    display: inline-block;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+input[type=text]:focus, input[type=password]:focus{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+input[type=submit] {
+    width: 100%;
+    height: 47px;
+    background-color: rgb(0,100,173);
+    color: white;
+    padding: 14px;
+    margin: 20px 0!important;
+    border: none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+input[type=submit]:hover {
+    background-color: rgb(0,100,173);
+    opacity: 0.9;
+    color: #fffff;
+    font-size: 16px;
+    font-weight: bold;
+}
+input[type=check], .checkbox {
+    margin-top: 5px;
+    color: black;
+    font-size: 13px;
+}
+div.rememberMe > p > a {
+    color: #0371BA;
+}
+div.rememberMe > p > a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+.form-input > label{
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+}
+hr {
+    display: block;
+    margin: 28px auto;
+    border: 1px inset;
+}
+input#register{
+    background-color: #D2DBE1;
+    color: rgb(0,100,173);
+}
+p#backtoblog a, p#nav a {
+    color: #0064AD !important;
+    font-size: 14px;
+    text-decoration: none;
+}
+p#backtoblog a:hover, p#nav a:hover {
+    text-decoration: none;
+}
+.error {
+    width: 380px;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    font-size: 14px;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+}
+.success {
+    color: #3c763d;
+    background: #dff0d8;
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+}
+#r_sidebar {
+    float: right;
+    padding: 25px;
+    margin-top: 15px;
+    font-size: 16px;
+    font-style: bold;
+}
+table.reg_headerlogo {
+    width: 90%;
+}
