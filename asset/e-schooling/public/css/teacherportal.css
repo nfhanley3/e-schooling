@@ -1,0 +1,54 @@
+body {
+	width: 100%; height: 100%;
+  	font-family: 'Open Sans', 'Arial', 'sans serif';
+  	font-size: 12px; 
+  	background-color: #f8f8fa;
+  	overflow: hidden;
+}
+
+/*.teach_head {
+	text-align: left;
+} */
+
+.teach_head {
+	text-align: left;
+}
+.logoutLblPos{
+
+   position:fixed;
+   right:15px;
+   top:10px;
+}
+
+h1 {
+	color: #ff0000;
+	text-align: center;
+	font-size: 25px;
+
+}
+
+h2 {
+        color: Black;
+        font-size: 14px;
+}
+
+.footer {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 10%;
+	color: white;
+	background-color: Red; 
+	text-align: Center;
+	font-family: 'Open Sans', 'Arial', 'sans serif';
+	margin-top: -10%;
+}
+
+p {
+	margin-left: 20px;
+    font-family: 'Open Sans', 'Arial', 'sans serif';
+	font-style: normal;
+	font-variant: normal;
+	line-height: 18px;
+}
