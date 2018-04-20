@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <!-- your webpage info goes here -->
+
+  <title>E-Schooling Index Page</title>
+  <meta charset="utf-8">
+  <meta name="author" content="your name" />
+  <meta name="description" content="" />
+  <link rel="shortcut icon" type="image/png" href="image/favicon_image.png">
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
+<style>
+  /*
+* multi-line comment
+*/
+p{ line-height: 1em; }
+h1, h2, h3, h4{
+  color: #fff;
+  font-weight: normal;
+  line-height: 1.1em;
+  margin: 0 0 .5em 0;
+}
+h1{ font-size: 1.7em; }
+h2{ font-size: 1.5em; }
+a{
+  color: black;
+  text-decoration: none;
+}
+a:hover,
+a:active{ text-decoration: underline; }
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+  font-size: 80%;
+  width: 100%;
+  background-image: url("image/high_school_girl.jpg");
+  background-repeat: repeat-x repeat-y;
+  line-height: 1.2em;
+}
+#page{ margin: 20px; }
+
+#logo{
+  font-family: georgia;
+  display: inline-block;
+}
+#logo a img {
+  width: 195px;
+}
+#nav{
+  width: 60%;
+  display: inline-block;
+  text-align: right;
+  float: right;
+  margin: 10px;
+}
+#nav ul{}
+#nav ul li{
+  display: inline-block;
+  height: 62px;
+}
+#nav ul li a{
+  padding: 20px;
+  background: orange;
+  color: white;
+}
+#nav ul li a:hover{
+  background-color: #ffb424;
+  box-shadow: 0px 1px 1px #666;
+}
+#nav ul li a:active{ background-color: #ff8f00; }
+
+#content{
+  margin: 30px 0;
+  padding: 20px;
+  clear: both;
+  color: #fff;
+}
+article {
+  width: 500px;
+  float: right;
+  margin-top: 40px;
+  margin-right: 50px;
+  font-size: 19px;
+  line-height: 1.2em;
+}
+#footer {
+ position:fixed;
+ left:0px;
+ bottom:0px;
+ height:60px;
+ width:100%;
+}
+
+/* IE 6 */
+* html #footer {
+ position:absolute;
+ top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+}
+
+
+div#page p{
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 80%;
+  color: grey;
+}
+#line {
+  height: 80px;
+}
+.centerLogin {
+  text-align: left;
+  margin-top: 40px;
+  font-size: 29px;
+}
+.centerLogin a {
+  color: #fff;
+  font-weight: bold;
+}
+.centerLogin a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+</style>  
+</head>
+<body>
+  <div id="page">
+    <div id="line">
+      <div id="logo">
+        <a href="/" id="logoLink">
+          <img src="image/eschooling_logo_white.gif" alt="eschooling logo">
+        </a>
+      </div>
+      <div id="nav">
+        <!-- <ul> -->
+<!--      <li><a href="#/home.html">Home</a></li>
+          <li><a href="public/registration.php">Register</a></li>
+          <li><a href="#/contact.html">Contact</a></li>
+          <li><a href="public/login.php">Login</a></li> -->
+        <!-- </ul> --> 
+      </div>
+    </div>
+    <div id="content">
+      <article>
+        <h2>e-Schooling Management System</h2>
+
+         Fast, Reliable, and Secure Management System that will ensure 
+         to manage data, maximize communication, and inspire student success.
+
+        <div class="centerLogin">
+          <a href="public/login.php">Login</a> / <a href="public/registration.php">Register</a>
+        </div>
+      </article>
+    </div>
+  </div>
+<!--   <div id="footer">
+    <div id="page">
+      <p>
+        Webpage made by <a href="/" target="_blank">[your name]</a>
+      </p>    
+    </div>
+  </div> -->
+</body>
+</html>
